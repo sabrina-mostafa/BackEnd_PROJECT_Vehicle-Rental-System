@@ -1,6 +1,6 @@
 # 🌐 API Reference
 
-← [Back to Main Documentation](Assignment-Overview.md)
+← [Back to Main Documentation](Project-Overview.md)
 
 Complete API reference for the Vehicle Rental System with request/response specifications.
 
@@ -661,4 +661,5 @@ number_of_days = rent_end_date - rent_start_date
 ### Deletion Constraints
 - Users cannot be deleted if they have active bookings
 - Vehicles cannot be deleted if they have active bookings
+
 - Active bookings = bookings with status `"active"`
