@@ -24,7 +24,7 @@ app.use(express.json());
 
 // root router
 app.get('/', (req: Request, res: Response) => {
-    res.send('Hello Sabrina!')
+    res.send('Hello from Sabrina! \n Welcome to my Vehicle-Rental-System')
     console.log("This is root route.");
 })
 
