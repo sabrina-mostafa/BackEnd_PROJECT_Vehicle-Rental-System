@@ -56,15 +56,23 @@ src/
  │    ├─ auth/
  │    │    ├─ auth.routes.ts
  │    │    ├─ auth.controllers.ts
- │    │    └─ auth.services.ts
+ │    │    ├─ auth.services.ts
+ │    │    └─ auth.interface.ts
+ │    ├─ users/
+ │    │    ├─ users.routes.ts
+ │    │    ├─ users.controllers.ts
+ │    │    ├─ users.services.ts
+ │    │    └─ users.interface.ts
  │    ├─ vehicles/
  │    │    ├─ vehicles.routes.ts
  │    │    ├─ vehicles.controllers.ts
- │    │    └─ vehicles.services.ts
+ │    │    ├─ vehicles.services.ts
+ │    │    └─ vehicles.interfaces.ts
  │    └─ bookings/
  │         ├─ bookings.routes.ts
  │         ├─ bookings.controllers.ts
- │         └─ bookings.services.ts
+ │         ├─ bookings.services.ts
+ │         └─ bookings.interfaces.ts
  ├─ middleware/
  │    ├─ auth.ts
  │    └─ adminOrOwner.ts
